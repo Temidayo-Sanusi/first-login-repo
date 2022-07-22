@@ -5,17 +5,19 @@
 </div>
 <div class="signup-box">
     <form>
-        <label>First Name</label>
-        <input type="text" placeholder="">
-        <label>Last Name</label>
-        <input type="text" placeholder="">
-        <label>Email</label>
-        <input type="email" placeholder="">
-        <label>Password</label>
-        <input type="password" placeholder="">
-        <label>Confirm Password</label>
-        <input type="password " placeholder="">
-        <input type="submit">
+        <div class="form">
+            <label>First Name</label>
+            <input type="text" placeholder="">
+            <label>Last Name</label>
+            <input type="text" placeholder="">
+            <label>Email</label>
+            <input type="email" placeholder="">
+            <label>Password</label>
+            <input type="password" placeholder="">
+            <label>Confirm Password</label>
+            <input type="password " placeholder="">
+            <input type="submit">
+            <div>
     </form>
 </div>
 <?php require 'partials/footer.php'; ?>
